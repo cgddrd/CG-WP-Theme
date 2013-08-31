@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../font/BebasNeue-webfont.eot');
+    src: url('../font/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/BebasNeue-webfont.woff') format('woff'),
+         url('../font/BebasNeue-webfont.ttf') format('truetype'),
+         url('../font/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+html, body {
+
+	height:100%;
+
+}
+
+body {
+
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+
+}
+
+h1,h2,h3,h4,h5 {
+
+	font-family: 'Bitter', serif;
+	font-weight: 400;
+	margin: 0;
+
+}
+
+h1 { font-size: 1.8em; }
+
+h2 { font-size: 1.6em; }
+
+h3 { font-size: 1.4em; }
+
+h4 {font-size: 1.2em; }
+
+a {
+
+	text-decoration: none;
+	color: #000;
+
+}
+
+ul, ol, dl {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+#site-container {
+
+	margin: 0 auto;
+	max-width: 920px;
+	padding: 30px 0;
+
+}
+
+#title-bar {
+	width:230px;
+	text-align: center;
+	height: 100%;
+	margin-right: 20px;
+	position: fixed;
+}
+
+#title-bar h2.logo {
+
+	font-family: 'Bebas Neue', sans-serif;
+	font-size:4em;
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+
+}
+
+#title-bar ul {
+
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+
+}
+
+#title-bar ul.social li {
+
+	list-style-type: none;
+	display: inline-block;
+}
+
+#title-bar ul.social li:hover .icon-background-grey {
+
+	color: #DD5424;
+
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+
+}
+
+#title-bar ul.social li:hover .icon-light{
+
+	color:#333;
+
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-ms-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+
+}
+
+#title-bar ul.nav-menu li {
+
+	list-style-type: none;
+	font-size: 1.2em;
+
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+
+}
+
+#title-bar ul.nav-menu li:hover {
+
+	background-color: #DD5424;
+	color: #eee;
+	
+}
+
+#main-content {
+
+	margin-left: 250px;
+	width:620px;
+	padding-left: 35px;
+	border-left: solid 2px #DD5424;
+	/* background-color: #f0f0f0; */
+}
+
+div.blog-heading h3 {
+
+	color: #4c4c4c;
+	padding: 10px 0;
+	font-size: 2.5em;
+}
+
+.icon-background-grey {
+	color: #333;
+
+}
